@@ -1,6 +1,6 @@
 import numpy as np
 
-from napari_pixel_correction import napari_get_reader
+from napari_pixel_correction._reader import napari_get_reader
 
 
 # tmp_path is a pytest fixture
