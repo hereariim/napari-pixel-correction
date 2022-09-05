@@ -6,4 +6,4 @@ If you need some help writing a good description, check out our
 [guide](https://github.com/chanzuckerberg/napari-hub/wiki/Writing-the-Perfect-Description-for-your-Plugin)
 -->
 
-The developer has not yet provided a napari-hub specific description.
+Plugin to correct manually pixel wrongly predicted on image by annotation
