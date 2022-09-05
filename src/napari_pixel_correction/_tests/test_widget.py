@@ -1,7 +1,9 @@
-import numpy as np
 
-from napari_pixel_correction import process_function_load, save_modification, save_as_zip
+def test_process_function_load():
+    pass
 
+def test_save_modification():
+    pass
 
-# make_napari_viewer is a pytest fixture that returns a napari viewer object
-# capsys is a pytest fixture that captures stdout and stderr output streams
+def test_save_as_zip():
+    pass
