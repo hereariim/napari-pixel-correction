@@ -1,0 +1,41 @@
+name: napari-pixel-correction
+display_name: Pixel correction
+contributions:
+  commands:
+    - id: napari-pixel-correction.get_reader
+      python_name: napari_pixel_correction._reader:napari_get_reader
+      title: Open data with Pixel correction
+    - id: napari-pixel-correction.write_multiple
+      python_name: napari_pixel_correction._writer:write_multiple
+      title: Save multi-layer data with Pixel correction
+    - id: napari-pixel-correction.write_single_image
+      python_name: napari_pixel_correction._writer:write_single_image
+      title: Save image data with Pixel correction
+    - id: napari-pixel-correction.make_qwidget
+      python_name: napari_pixel_correction._widget:ExampleQWidget
+      title: Make example QWidget
+    - id: napari-pixel-correction.make_magic_widget
+      python_name: napari_pixel_correction._widget:example_magic_widget
+      title: Make example magic widget
+    - id: napari-pixel-correction.make_func_widget
+      python_name: napari_pixel_correction._widget:example_function_widget
+      title: Make example function widget
+  readers:
+    - command: napari-pixel-correction.get_reader
+      accepts_directories: false
+      filename_patterns: ['*.npy']
+  writers:
+    - command: napari-pixel-correction.write_multiple
+      layer_types: ['image*','labels*']
+      filename_extensions: []
+    - command: napari-pixel-correction.write_single_image
+      layer_types: ['image']
+      filename_extensions: ['.npy']
+  widgets:
+    - command: napari-pixel-correction.make_qwidget
+      display_name: Example QWidget
+    - command: napari-pixel-correction.make_magic_widget
+      display_name: Example Magic Widget
+    - command: napari-pixel-correction.make_func_widget
+      autogenerate: true
+      display_name: Example Function Widget
