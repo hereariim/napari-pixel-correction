@@ -47,7 +47,7 @@ First, you need a compressed file (in .zip format) were you have all your images
         │   ├── im_3.JPG
         │   ...
         │   └── im_n.JPG
-        │   └── im_1_mask.JPG
+        │
         └── mask
             ├── im_1_mask.JPG
             ├── im_2_mask.JPG
