@@ -104,12 +104,16 @@ def process_function_load(napari_viewer : Viewer,filename=pathlib.Path.cwd()):
         
         name = item.text()
         name_folder = name[:-4]
-    
+        print('name :',name)
+        print('name_folder :',name_folder)
         print('Loading', name, '...')
 
         napari_viewer.layers.select_all()
         napari_viewer.layers.remove_selected()    
+        print('zip_dir.name :',zip_dir.name)
+        print('name :',name)
         fname = f'{zip_dir.name}\{name}'
+        print('fname :',fname)
         for fname_i in os.listdir(fname):
             if fname_i.find('mask')!=-1:
                 data_label = imread(f'{fname}\{fname_i}')
@@ -126,6 +130,7 @@ def process_function_load(napari_viewer : Viewer,filename=pathlib.Path.cwd()):
         print('... done.')
     
     list_widget = QListWidget()
+    print('names :',names)
     for n in names:
         list_widget.addItem(n)    
     list_widget.currentItemChanged.connect(open_name)   
