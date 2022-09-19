@@ -25,7 +25,7 @@ https://napari.org/stable/plugins/index.html
 
 You can install `napari-pixel-correction` via [pip]:
 
-    pip install napari-pixel-correction
+    pip install napari-pixel-correct
 
 
 
