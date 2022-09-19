@@ -1,11 +1,11 @@
 # napari-pixel-correction
 
-[![License BSD-3](https://img.shields.io/pypi/l/napari-pixel-correction.svg?color=green)](https://github.com/hereariim/napari-pixel-correction/raw/main/LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/napari-pixel-correction.svg?color=green)](https://pypi.org/project/napari-pixel-correction)
-[![Python Version](https://img.shields.io/pypi/pyversions/napari-pixel-correction.svg?color=green)](https://python.org)
-[![tests](https://github.com/hereariim/napari-pixel-correction/workflows/tests/badge.svg)](https://github.com/hereariim/napari-pixel-correction/actions)
-[![codecov](https://codecov.io/gh/hereariim/napari-pixel-correction/branch/main/graph/badge.svg)](https://codecov.io/gh/hereariim/napari-pixel-correction)
-[![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-pixel-correction)](https://napari-hub.org/plugins/napari-pixel-correction)
+[![License BSD-3](https://img.shields.io/pypi/l/napari-pixel-correct.svg?color=green)](https://github.com/hereariim/napari-pixel-correct/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/napari-pixel-correct.svg?color=green)](https://pypi.org/project/napari-pixel-correct)
+[![Python Version](https://img.shields.io/pypi/pyversions/napari-pixel-correct.svg?color=green)](https://python.org)
+[![tests](https://github.com/hereariim/napari-pixel-correct/workflows/tests/badge.svg)](https://github.com/hereariim/napari-pixel-correct/actions)
+[![codecov](https://codecov.io/gh/hereariim/napari-pixel-correct/branch/main/graph/badge.svg)](https://codecov.io/gh/hereariim/napari-pixel-correct)
+[![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-pixel-correct)](https://napari-hub.org/plugins/napari-pixel-correct)
 
 Plugin to correct manually pixel wrongly predicted on image by annotation
 
