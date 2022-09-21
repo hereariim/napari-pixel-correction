@@ -61,6 +61,8 @@ First, you need a compressed file (in .zip format) were you have all your images
 ```
 In repository, each image folder should have two elements : image in RGB and the segmented mask in binary image (where no-flower class is 0 and flower class is 255)
 
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 ## Contributing
 
 Contributions are very welcome. Tests can be run with [tox], please ensure
