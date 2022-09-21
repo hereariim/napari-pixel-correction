@@ -45,8 +45,9 @@ def process_function_load(napari_viewer : Viewer,filename=pathlib.Path.cwd()):
     with ZipFile(filename,'r') as zipObject:
             
         listOfFileNames = zipObject.namelist()
-            
-        for i in trange(len(listOfFileNames)):
+        
+        for i in range(len(listOfFileNames)):  
+        # for i in trange(len(listOfFileNames)):
             zipObject.extract(listOfFileNames[i],path=zip_dir.name)
 
     path_folder = zip_dir.name.replace("\\","/")
@@ -56,7 +57,7 @@ def process_function_load(napari_viewer : Viewer,filename=pathlib.Path.cwd()):
     A = []
     B = []
 
-    for ix in range(len(subfolder)):
+    for ix in trange(len(subfolder)):
         if subfolder[ix].lower() == "image":
             image_folder = os.listdir(path_folder+'/'+folder+'/'+subfolder[ix])
             A = [path_folder+'/'+folder+'/'+subfolder[ix]+'/'+image_folder[i] for i in range(len(image_folder))]
