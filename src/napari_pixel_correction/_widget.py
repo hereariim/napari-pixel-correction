@@ -1,4 +1,3 @@
-from tkinter import Image
 import os
 from skimage import measure
 import skimage
