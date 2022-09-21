@@ -15,7 +15,7 @@ This [napari] plugin was generated with [Cookiecutter] using [@napari]'s [cookie
 
 This plugin allows you to manually correct the images of the apple tree flowers by annotation. Below, a piece of an image shows the predicted pixels (in brown). A pixel in brown is assigned to the flower class. We can see that the brown colour does not necessarily cover a flower in this image.
 
-![ext](https://github.com/hereariim/napari-pixel-correction/blob/main/Capture%20d%E2%80%99%C3%A9cran%202022-09-21%20152404.png)
+![Capture d’écran 2022-09-21 152404](https://user-images.githubusercontent.com/93375163/191530483-5ce230af-e34c-4fd5-ab91-1d611fd774d1.png)
 
 <!--
 Don't miss the full getting started guide to set up your new package:
