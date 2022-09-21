@@ -8,7 +8,6 @@ from skimage import img_as_uint,img_as_int,img_as_ubyte,measure
 from skimage.measure import label,regionprops_table
 from skimage.filters import threshold_multiotsu
 from skimage.transform import resize
-import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 import subprocess
