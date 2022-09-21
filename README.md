@@ -13,7 +13,9 @@ Plugin to correct manually pixel wrongly predicted on image by annotation
 
 This [napari] plugin was generated with [Cookiecutter] using [@napari]'s [cookiecutter-napari-plugin] template.
 
-This plugin allows you to manually correct the images of the apple tree flowers by annotation. 
+This plugin allows you to manually correct the images of the apple tree flowers by annotation. Below, a piece of an image shows the predicted pixels (in brown). A pixel in brown is assigned to the flower class. We can see that the brown colour does not necessarily cover a flower in this image.
+
+![ext](C:\Users\User\napari-pixel-correction\Capture d’écran 2022-09-21 152404.png "ere")
 
 <!--
 Don't miss the full getting started guide to set up your new package:
