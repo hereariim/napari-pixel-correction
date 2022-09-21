@@ -61,7 +61,7 @@ First, you need a compressed file (in .zip format) were you have all your images
 ```
 In repository, each image folder should have two elements : image in RGB and the segmented mask in binary image (where no-flower class is 0 and flower class is 255)
 
-![Napari simple tutorial](https://github.com/hereariim/napari-pixel-correction/blob/main/napari-tutorial_simple.mp4)
+[napari-tutorial_simple](https://user-images.githubusercontent.com/93375163/191527225-47ba8667-e3bd-467b-b5f3-f8f7d97617a5.gif)
 
 ## Contributing
 
