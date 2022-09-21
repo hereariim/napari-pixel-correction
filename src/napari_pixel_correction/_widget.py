@@ -10,31 +10,21 @@ from skimage.filters import threshold_multiotsu
 from skimage.transform import resize
 import matplotlib.pyplot as plt
 import numpy as np
-import subprocess
-import napari
-from magicgui import magic_factory
-from napari.types import ImageData, LabelsData, NewType
+from magicgui import magic_factory, magicgui
+from napari.types import ImageData, LabelsData, NewType, LayerDataTuple
 from napari.utils.notifications import show_info
 import pathlib
 import tempfile
 from zipfile import ZipFile
 import os
-from torch import _fake_quantize_learnable_per_tensor_affine
-import conidie.path as paths
-from magicgui import magicgui
-import matplotlib.pyplot as plt
-import numpy as np
+import napari_pixel_correction.path as paths
 import napari
 from os import listdir,makedirs
-from qtpy.QtWidgets import QListWidget
-from napari.types import ImageData, LabelsData, LayerDataTuple
-from napari import Viewer
-from qtpy.QtWidgets import QTableWidget, QTableWidgetItem, QGridLayout, QPushButton, QFileDialog, QWidget
+from napari import Viewer, layers
+from qtpy.QtWidgets import QTableWidget, QTableWidgetItem, QGridLayout, QPushButton, QFileDialog, QWidget, QListWidget
 import shutil
 from fileinput import filename
-from napari import layers
 from glob import glob
-from qtpy.QtWidgets import QListWidget
 from qtpy.QtCore import Qt
 from napari.utils import progress
 from magicgui.tqdm import trange
